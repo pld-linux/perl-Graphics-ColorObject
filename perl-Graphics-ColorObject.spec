@@ -14,6 +14,7 @@ License:	same as perl
 Group:		Development/Languages/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/A/AI/AIZVORSKI/%{pdir}-%{pnam}-%{version}.tar.gz
 URL:		http://search.cpan.org/dist/Graphics-ColorObject/
+BuildRequires:	perl-Graphics-ColorNames
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
