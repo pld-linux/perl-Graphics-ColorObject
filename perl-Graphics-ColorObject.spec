@@ -51,7 +51,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_vendorlib}/Graphics/*.pm
-%dir %{perl_vendorlib}/Graphics/ColorObject
-%{perl_vendorlib}/Graphics/ColorObject/*.pm
+%{perl_vendorlib}/Graphics/ColorObject.pm
 %{_mandir}/man3/*
